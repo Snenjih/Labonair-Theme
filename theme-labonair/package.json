@@ -1,0 +1,51 @@
+{
+  "name": "theme-labonair",
+  "displayName": "Labonair Theme",
+  "description": "The official Cyber-Zen theme for Labonair.",
+  "version": "1.0.0",
+  "publisher": "labonair",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "Labonair Dark",
+        "label": "Labonair Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/labonair-dark.json"
+      },
+      {
+        "id": "Labonair Light",
+        "label": "Labonair Light",
+        "uiTheme": "vs",
+        "path": "./themes/labonair-light.json"
+      },
+      {
+        "id": "Labonair Dark Purple",
+        "label": "Labonair Dark Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/labonair-dark-purple.json"
+      },
+      {
+        "id": "Labonair Light Purple",
+        "label": "Labonair Light Purple",
+        "uiTheme": "vs",
+        "path": "./themes/labonair-light-purple.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "labonair-icons",
+        "label": "Labonair Icons",
+        "path": "./icons/labonair-icons.json"
+      },
+      {
+        "id": "labonair-icons-no-folders",
+        "label": "Labonair Icons (No Folders)",
+        "path": "./icons/labonair-icons-no-folders.json"
+      }
+    ]
+  }
+}
